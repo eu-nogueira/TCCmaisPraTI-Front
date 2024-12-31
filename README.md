@@ -1,2 +1,2 @@
 # TCCmaisPraTI
-Academy
+Front-end do projeto final academy
