@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar, a {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 11pt;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li:hover, .navbar button:hover, a:hover {
+    color: #0077FF;
+    cursor: pointer;
+}
+
+.navbar button {
+    color: white;
+    width: 50px;
+    font-size: 18pt;
+    height: 30px;
+    background-color: black;
+    border: none;
+}
+
+.header {
+    background: black;
+}
+
+.navbar, .dia {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.atual {
+    color: #0077FF;
+}
+
+.foto {
+    background-color: rgb(195, 195, 195);
+    background-image: url(C:\Users\A Lenda\Downloads\TCCMaisPraTI\TCCmaisPraTI-Front\projectAcademy\src\images\th-removebg-preview.png);
+    background-size: 60px;
+    background-position: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    color: #0077FF;
+    font-size: 16pt;
+}
+
+h2 {
+    transition: 1s;
+}
+
+h2:hover {
+    animation: logoGira 3s;
+    animation-fill-mode: backwards;
+    cursor: pointer;
+}
+
+@keyframes logoGira {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.newClass {
+    margin: auto;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #daebfd;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.main-containerAula {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.searchUser {
+    width: 500px;
+    padding: 5px;
+    background-color: rgb(175, 175, 175);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 50px 30%;
+}
+
+.newClass input, .descri {
+    margin-top: 10px;
+    border: none;
+    padding: 3px;
+    background-color: #95c6fb;
+}
+
+.descri {
+    height: 15px;
+}
+
+.nome, .descri, .email {
+    width: 300px;
+}
+
+.hour {
+    width: 150px;
+}
+
+.title {
+    text-align: center;
+    background-color: #0077FF;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cadastro {
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    background-color: #0077FF;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.cadastro:hover {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+    background-color: #005bc2;
+}
