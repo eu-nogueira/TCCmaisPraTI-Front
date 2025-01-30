@@ -3,13 +3,13 @@ import "./AulaInstrutor.css"
 import NavBarCodeFit from '../../components/instrutorInterface/NavBarCodeFit'
 import RodapeHome from '../../components/instrutorInterface/RodapeHome'
 import CadastrarNovaAula from '../../components/instrutorInterface/CadastrarNovaAula'
-import AulasCadastradas from '../../components/instrutorInterface/AulasCadastradas'
+import AulasDoDia from '../../components/instrutorInterface/AulasDoDia'
 
 function AulaInstrutor() {
   return (
     <div>
     <NavBarCodeFit></NavBarCodeFit>
-    <AulasCadastradas></AulasCadastradas>
+    <AulasDoDia></AulasDoDia>
     <CadastrarNovaAula></CadastrarNovaAula>
     <RodapeHome></RodapeHome>
     </div>

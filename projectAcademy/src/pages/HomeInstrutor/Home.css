@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.navbar, a {
+.navbar {
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 
-.navbar li:hover, .navbar button:hover, a:hover {
+.navbar li:hover, .navbar button:hover {
     color: #0077FF;
     cursor: pointer;
 }
@@ -34,10 +34,6 @@ button {
     display: flex;
     list-style: none;
     align-items: center;
-}
-
-.atual {
-    color: #0077FF;
 }
 
 button {
@@ -114,6 +110,7 @@ h2:hover {
 
 .listaEspecificacao {
     margin-left: 30px;
+    
 }
 
 .especificacoes {
@@ -216,8 +213,10 @@ h2:hover {
     color: white;
 }
 
-.modo-escuro .newClass {
-    background-color: #001457;
+.modo-escuro .newClass, .modo-escuro .especificacoes {
+    background-color: #000e3a;
+    border: 1px solid white;
+    border-top: none;
 }
 
 .rodape {

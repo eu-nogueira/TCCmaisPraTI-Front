@@ -19,14 +19,18 @@ const NavBarCodeFit = () => {
     }
   }, [modoEscuro]);
 
+    if(modoEscuro) {
+      
+    }
+
   return (
     <div className="header">
       <ul className="navbar">
         <h2><Link to="/">CODE<span className="logo">FIT</span></Link></h2>
-        <li><Link to="/">HOME</Link></li>
-        <li><Link to="/aulaInstrutor">AULAS</Link></li>
-        <li><Link to="/frequenciaInstrutor">FREQUÊNCIAS</Link></li>
-        <button onClick={mudaParaEscuro}>☾</button>
+        <li className="menu"><Link to="/">HOME</Link></li>
+        <li className="menu"><Link to="/aulaInstrutor">AULAS</Link></li>
+        <li className="menu"><Link to="/frequenciaInstrutor">FREQUÊNCIAS</Link></li>
+        <button onClick={mudaParaEscuro} className="menu">☾</button>
         <li>INSTRUTOR1</li>
         <li className="foto"></li>
       </ul>

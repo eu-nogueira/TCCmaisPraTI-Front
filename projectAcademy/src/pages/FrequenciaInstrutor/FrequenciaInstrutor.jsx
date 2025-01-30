@@ -1,14 +1,14 @@
 import React from 'react'
 import RodapeHome from '../../components/instrutorInterface/RodapeHome'
 import NavBarCodeFit from '../../components/instrutorInterface/NavBarCodeFit'
-import AulasCadastradas from '../../components/instrutorInterface/AulasCadastradas'
+import BuscarAluno from '../../components/instrutorInterface/BuscarAluno'
 import GraficoPercentual from '../../components/instrutorInterface/GraficoPercentual'
 
 function FrequenciaInstrutor() {
   return (
     <div>
     <NavBarCodeFit></NavBarCodeFit>
-    <AulasCadastradas></AulasCadastradas>
+    <BuscarAluno></BuscarAluno>
     <GraficoPercentual></GraficoPercentual>
     <RodapeHome></RodapeHome>
     </div>

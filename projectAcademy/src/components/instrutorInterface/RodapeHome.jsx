@@ -2,7 +2,7 @@
 const RodapeHome = () => {
     return (
     <div>
-        <div class="rodape">
+        <div className="rodape">
         <p>CODEFIT | SUPORTE &copy;2025</p>
     </div>
     </div>

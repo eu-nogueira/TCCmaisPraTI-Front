@@ -1,24 +1,49 @@
 import React from 'react'
 
 function CadastrarNovaAula() {
-  return (
-    <div>
-        <form class="newClass">
-                <h3 class="title">CADASTRAR NOVA AULA</h3>
-                <label for="name">Nome:</label>
-                <input type="text" class="nome"/> <br />
-                <label for="hour">Horário:</label>
-                <input type="text" class="hour"/>
-                <label for="date">Data:</label>
-                <input type="date"/> <br />
-                <label for="email">E-mail:</label>
-                <input type="email" name="" class="email"/> <br />
-                <label for="descri">Descrição:</label>
-                <textarea name="" class="descri"></textarea> <br />
-                <button class='cadastro'>Cadastrar</button>
+  
+    class Aula {
+      constructor(nome, hour, data, email, descricao) {
+        this.nome = nome;
+        this.hour = hour;
+        this.data = data;
+        this.email = email;
+        this.descricao = descricao;
+      }
+    }
+
+    function cadastrarAula(e) {
+    e.preventDefault()
+    let nome = document.querySelector('.nome').value
+    let hour = document.querySelector('.hour').value
+    let data = document.querySelector('.data').value
+    let email = document.querySelector('.email').value
+    let descricao = document.querySelector('.descri').value
+    let novaAula = new Aula(nome, hour, data, email, descricao)
+
+      alert("Aula cadastrada com sucesso!")
+      console.log(novaAula)
+    }
+    
+    return (
+      <div>
+        <form className="newClass">
+                <h3 className="title">CADASTRAR NOVA AULA</h3>
+                <label htmlFor="name">Nome: </label>
+                <input type="text" className="nome"/> <br />
+                <label htmlFor="hour">Horário: </label>
+                <input type="text" className="hour"/>
+                <label htmlFor="date">Data: </label>
+                <input type="date" className='data'/> <br />
+                <label htmlFor="email">E-mail: </label>
+                <input type="email" name="" className="email"/> <br />
+                <label htmlFor="descri">Descrição: </label>
+                <textarea name="" className="descri"></textarea> <br />
+                <button className='cadastro' onClick={cadastrarAula}>Cadastrar</button>
             </form>
     </div>
   )
 }
-
-export default CadastrarNovaAula
+  
+  export default CadastrarNovaAula
+  
