@@ -1,0 +1,47 @@
+li{
+    color: white;
+    list-style: none;
+}
+
+strong{
+    color: var(--bs-primary);
+    cursor: pointer;
+}
+
+.con{
+    background-color: #0f153a;
+}
+
+.codeFit{
+    display: flex;               /* Ativa o Flexbox */
+    justify-content: center;     /* Centraliza horizontalmente */
+    align-items: center;       
+    height: 70vh;  
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botoes button{
+    margin: 10px;
+    border-radius: 12.1px;
+    
+    color: white;
+
+    background-color: #4169E1 ;
+
+    width: 604.72px;
+    height: 86px;
+    top: 970.28px;
+    
+}
+
+.imgCodeFit{
+    margin-left: 20px;
+    width: 100px;
+    height: 20px;
+}
+

@@ -4,11 +4,17 @@ import Home from './pages/HomeInstrutor/Home'
 import AulaInstrutor from './pages/AulasInstrutor/AulaInstrutor'
 import FrequenciaInstrutor from './pages/FrequenciaInstrutor/FrequenciaInstrutor'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import PaginaInicial from './components/paginaInicial/PaginaInicial'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/pagina",
     element: <Home />
+  },
+
+  {
+    path: "/",
+    element: <PaginaInicial />
   },
   {
     path: "aulaInstrutor",
