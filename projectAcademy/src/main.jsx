@@ -5,11 +5,16 @@ import AulaInstrutor from './pages/AulasInstrutor/AulaInstrutor'
 import FrequenciaInstrutor from './pages/FrequenciaInstrutor/FrequenciaInstrutor'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import PaginaInicial from './components/paginaInicial/PaginaInicial'
+import Cadastro from './components/cadastro/Cadastro'
 
 const router = createBrowserRouter([
   {
     path: "/pagina",
     element: <Home />
+  },
+  {
+    path: "/cadastro",
+    element: <Cadastro />
   },
 
   {
