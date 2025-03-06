@@ -16,18 +16,33 @@
     cursor: pointer;
 }
 
+.cancel, .confirm {
+    color: white;
+    font-size: 18pt;
+    height: 20px;
+    background-color: black;
+    padding: 5px 38px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.button {
+    display: flex;
+    padding-left: 12px;
+    gap: 9px;
+}
+
 button {
     color: white;
     width: 50px;
     font-size: 18pt;
-}
-.header {
-    background: black;
-}
-
-button {
     height: 30px;
     background-color: black;
+    border: none;
+}
+
+.header {
+    background: black;
 }
 
 .navbar, .dia {
@@ -36,9 +51,6 @@ button {
     align-items: center;
 }
 
-button {
-    border: none;
-}
 .foto {
     background-color: rgb(195, 195, 195);
     background-image: url(C:\Users\A Lenda\Downloads\TCCMaisPraTI\TCCmaisPraTI-Front\projectAcademy\src\images\th-removebg-preview.png);

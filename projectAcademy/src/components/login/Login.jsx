@@ -32,7 +32,7 @@ function Login() {
       localStorage.setItem("token", token); // Salva o token no localStorage
 
       console.log("Login bem-sucedido! Token:", token);
-      navigate("/dashboard"); // Redireciona para a página protegida
+      navigate("/pagina"); // Redireciona para a página protegida
     } catch (error) {
       console.error("Erro ao autenticar:", error.message);
       setErro(error.message);
