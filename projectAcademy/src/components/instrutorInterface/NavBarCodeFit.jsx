@@ -10,12 +10,14 @@ const NavBarCodeFit = () => {
     setModoEscuro(novoModoEscuro);
     localStorage.setItem("modoEscuro", JSON.stringify(novoModoEscuro));
   };
-
+let button = document.querySelector('.botao')
   useEffect(() => {
     if (modoEscuro) {
       document.body.classList.add("modo-escuro");
+     
     } else {
       document.body.classList.remove("modo-escuro");
+     
     }
   }, [modoEscuro]);
 
@@ -30,9 +32,9 @@ const NavBarCodeFit = () => {
         <li className="menu"><Link to="/">HOME</Link></li>
         <li className="menu"><Link to="/aulaInstrutor">AULAS</Link></li>
         <li className="menu"><Link to="/frequenciaInstrutor">FREQUÊNCIAS</Link></li>
-        <button onClick={mudaParaEscuro} className="menu">☾</button>
-        <li>INSTRUTOR1</li>
-        <li className="foto"></li>
+        <button onClick={mudaParaEscuro} className="botao">☾</button>
+        <li>DEFAULT[NAME]</li>
+        <li className="sair">SAIR</li>
       </ul>
     </div>
   );
