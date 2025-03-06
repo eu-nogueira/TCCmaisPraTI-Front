@@ -6,6 +6,7 @@ import FrequenciaInstrutor from './pages/FrequenciaInstrutor/FrequenciaInstrutor
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import PaginaInicial from './components/paginaInicial/PaginaInicial'
 import Cadastro from './components/cadastro/Cadastro'
+import Login from './components/login/Login'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/cadastro",
     element: <Cadastro />
+  },
+  {
+    path: "/login",
+    element: <Login />
   },
 
   {
