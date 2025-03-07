@@ -28,13 +28,13 @@ let button = document.querySelector('.botao')
   return (
     <div className="header">
       <ul className="navbar">
-        <h2><Link to="/">CODE<span className="logo">FIT</span></Link></h2>
-        <li className="menu"><Link to="/">HOME</Link></li>
+        <h2><Link to="/home">CODE<span className="logo">FIT</span></Link></h2>
+        <li className="menu"><Link to="/home">HOME</Link></li>
         <li className="menu"><Link to="/aulaInstrutor">AULAS</Link></li>
         <li className="menu"><Link to="/frequenciaInstrutor">FREQUÊNCIAS</Link></li>
         <button onClick={mudaParaEscuro} className="botao">☾</button>
         <li>DEFAULT[NAME]</li>
-        <li className="sair">SAIR</li>
+        <li className="sair"><Link to="/">SAIR</Link></li>
       </ul>
     </div>
   );

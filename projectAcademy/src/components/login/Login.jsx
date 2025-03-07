@@ -40,10 +40,17 @@ function Login() {
   };
 
   return (
-    <div className="c d-flex justify-content-center align-items-center min-vh-100 bg-body-tertiary">
-      <main className="w-100 m-auto form-container">
+    <div className="login">
+      <div className="left">
+        <h1>CODE<span>FIT</span></h1>
+        <p>Academia moderna, com treinos personalizados, ambiente motivador e equipe dedicada para
+          transformar seu corpo e mente!
+        </p>
+      </div>
+    <div className="c d-flex justify-content-center align-items-center min-vh-100">
+      <main className=" m-auto form-container">
         <form onSubmit={handleLogin}>
-          <h1 className="h3 mb-3 fw-normal">LOGIN</h1>
+          <h1 className="h3 mb-3 fw-normal text-black">LOGIN</h1>
 
           {erro && <p className="text-danger">{erro}</p>} {/* Exibe erro se houver */}
 
@@ -71,15 +78,16 @@ function Login() {
             <label htmlFor="floatingPassword">Senha</label>
           </div>
 
-          <button className="btn btn-primary w-100" type="submit">
+          <button className="btn btn-primary w-100 h-100" type="submit">
             Entrar
           </button>
 
-          <button className="btn-google w-100 mt-2">
-            <img src={imageGoogle} alt="Google" /> Entrar com Google
+          <button className="btn-google w-100 mt-2 text-black bg-white">
+            <img src={imageGoogle} alt="Google" /> <b>Entrar com o Google</b>
           </button>
         </form>
       </main>
+    </div>
     </div>
   );
 }

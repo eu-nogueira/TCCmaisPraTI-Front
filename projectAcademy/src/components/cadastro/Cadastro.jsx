@@ -43,9 +43,15 @@ const Cadastro = () => {
   };
 
   return (
-    <div>
-      <h1>Cadastro</h1>
-      <form onSubmit={handleSubmit}>
+    <div className="cadastro2">
+      <div className="left">
+        <h1>CODE<span>FIT</span></h1>
+        <p>Academia moderna, com treinos personalizados, ambiente motivador e equipe dedicada para
+          transformar seu corpo e mente!
+        </p>
+      </div>
+      <form onSubmit={handleSubmit} className="formCadas">
+      <h3 className="text-black"><b>CADASTRO</b></h3>
         <input
           type="text"
           placeholder="Nome"
@@ -67,7 +73,7 @@ const Cadastro = () => {
           onChange={(e) => setSenha(e.target.value)}
           required
         />
-        <button type="submit" className="b bg-primary">Cadastrar</button>
+        <button type="submit" className="bg-primary text-white">CADASTRE-SE</button>
       </form>
     </div>
   );

@@ -3,7 +3,8 @@ import "./HomeAluno.css";
 import NavBarCodeFit from '../../components/instrutorInterface/NavBarCodeFit';
 import RodapeHome from '../../components/instrutorInterface/RodapeHome';
 import CadastrarNovaAula from '../../components/instrutorInterface/CadastrarNovaAula';
-import AulasDoDia from '../../components/instrutorInterface/AulasDoDia';
+import TarefasDiarias from '../../components/instrutorInterface/TarefasDiarias';
+import Calendario from './Calendario';
 
 function HomeAluno() {
   return (
@@ -11,11 +12,15 @@ function HomeAluno() {
       <NavBarCodeFit />
       
       <div className="banner">
-        <h1>SEJA MUITO <span className="highlight">BEM-VINDO</span></h1>
-        <button className="btn">Ver mais Treinos</button>
+        <div className="esquer">
+          <TarefasDiarias />
+        </div>
+        <div className="direi">
+          <h1>SEJA MUITO <span className="highlight">BEM-VINDO</span></h1>
+          <button className="btn">Ver mais Treinos</button>
+          <Calendario />
+        </div>
       </div>
-      
-      <AulasDoDia />
       
       <RodapeHome />
     </div>

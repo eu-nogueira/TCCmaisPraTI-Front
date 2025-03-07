@@ -150,3 +150,13 @@ h2:hover {
     justify-content: center;
     align-items: center;
 }
+
+.banner {
+    display: flex;
+}
+
+.direi {
+    margin-left: 10%;
+    width: 500px;
+}
+

@@ -5,7 +5,7 @@ const TarefasDiarias = () => {
         <div>
             <div className="main-container">
       <ul className="semana">
-        <li className="dia"><span>SEG</span> TREINO POSTERIORES</li>
+        <li className="dia2"><span>SEG</span> TREINO POSTERIORES</li>
         <div className="especificacoes">
           <ul className="listaEspecificacao">
             <li><p>Agachamento livre - 4x10-12</p></li>
@@ -18,7 +18,7 @@ const TarefasDiarias = () => {
             </li>
           </ul>
         </div>
-        <li className="dia"><span>TER</span> TREINO SUPERIORES</li>
+        <li className="dia2"><span>TER</span> TREINO SUPERIORES</li>
         <div className="especificacoes">
           <ul className="listaEspecificacao">
             <li><p>Supino Reto com Barra - 4x8-12</p></li>
@@ -29,7 +29,7 @@ const TarefasDiarias = () => {
             <li><p>Tríceps Pulley - 4x12-15</p></li>
           </ul>
         </div>
-        <li className="dia">
+        <li className="dia2">
           <span>QUA</span> TREINO FÍSICO E CARDIO PREPARATÓRIO
         </li>
         <div className="especificacoes">
@@ -41,7 +41,7 @@ const TarefasDiarias = () => {
             <li><p>Cardio Corrida ou caminhada rápida - livre</p></li>
           </ul>
         </div>
-        <li className="dia"><span>QUI</span> TREINO GLÚTEOS AVANÇADOS</li>
+        <li className="dia2"><span>QUI</span> TREINO GLÚTEOS AVANÇADOS</li>
         <div className="especificacoes">
           <ul className="listaEspecificacao">
             <li><p>Agachamento (Squat) - 4x12</p></li>
@@ -51,7 +51,7 @@ const TarefasDiarias = () => {
             <li><p>Agachamento Búlgaro - 3x10-12 (cada perna)</p></li>
           </ul>
         </div>
-        <li className="dia" id="diaTeste"><span>SEX</span> TREINO POSTERIORES</li>
+        <li className="dia2" id="diaTeste"><span>SEX</span> TREINO POSTERIORES</li>
         <div className="especificacoes">
           <ul className="listaEspecificacao">
             <li><p>Agachamento livre - 4x10-12</p></li>
@@ -62,7 +62,7 @@ const TarefasDiarias = () => {
             <li><p>Elevação de Panturrilha no Leg Press ou em Pé - 4x15-20</p></li>
           </ul>
         </div>
-        <li className="dia"><span>SAB</span> TREINO FULLBODY</li>
+        <li className="dia2"><span>SAB</span> TREINO FULLBODY</li>
         <div className="especificacoes">
           <ul className="listaEspecificacao">
             <li><p>Pular corda ou bicicleta ergométrica 5-10min</p></li>

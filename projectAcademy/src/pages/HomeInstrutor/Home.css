@@ -16,28 +16,19 @@
     cursor: pointer;
 }
 
-.cancel, .confirm {
-    color: white;
-    font-size: 18pt;
-    height: 20px;
-    background-color: black;
-    padding: 5px 38px;
-    font-weight: bold;
-    border-radius: 3px;
-}
-
 .button {
     display: flex;
-    padding-left: 12px;
-    gap: 9px;
 }
 
-button {
+.cadastroAula {
     color: white;
-    width: 50px;
-    font-size: 18pt;
-    height: 30px;
-    background-color: black;
+    width: 200px;
+    font-size: 10pt;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 3px;
+    background-color: #0077FF;
+    cursor: pointer;
     border: none;
 }
 
@@ -45,7 +36,7 @@ button {
     background: black;
 }
 
-.navbar, .dia {
+.navbar, .dia2 {
     display: flex;
     list-style: none;
     align-items: center;
@@ -89,7 +80,7 @@ h2:hover {
     width: 50%;
 }
 
-.dia {
+.dia2 {
     background-color: #0077FF;
     width: 450px;
     color: white;
@@ -97,7 +88,7 @@ h2:hover {
     border-radius: 5px;
 }
 
-.dia span {
+.dia2 span {
     height: 100%;
     background-color: #001457;
     padding: 10px 0px;
@@ -133,7 +124,7 @@ h2:hover {
     background-color: #daebfd;
 }
 
-.dia:hover + .especificacoes {
+.dia2:hover + .especificacoes {
     display:block;
 }
 
@@ -204,15 +195,16 @@ h2:hover {
 .cancel, .confirm {
     background-color: #daebfd;
     color: black;
-    font-size: 10pt;
     font-weight: bold;
-    width: 135px;
+    width: 205px;
+    height: 30px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
-    right: -68px;
+    right: -90px;
     cursor: pointer;
     margin-left: 15px;
+    padding: 2px;
 }
 
 .modo-escuro {
@@ -232,10 +224,9 @@ h2:hover {
 }
 
 .rodape {
-    position: absolute;
     width: 100%;
-    bottom: 10px;
     text-align: center;
     border-top: 1px solid black;
-    padding-top: 7px;
+    padding-top: 10px;
+    margin-top: 100px;
 }

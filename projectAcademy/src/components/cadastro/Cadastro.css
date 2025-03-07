@@ -1,3 +1,32 @@
-.b{
-    width: 50%
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cadastro2 {
+    height: 100vh;
+    display: flex;
+    margin-top: 0;
+    background-color: #daebfd;
+}
+
+.formCadas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.formCadas input {
+    margin-top: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+.formCadas button {
+    width: 200px;
+    height: 30px;
+    font-size: 15pt;
+    border-radius: 3px;
 }

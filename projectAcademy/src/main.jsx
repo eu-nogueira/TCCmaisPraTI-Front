@@ -7,10 +7,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import PaginaInicial from './components/paginaInicial/PaginaInicial'
 import Cadastro from './components/cadastro/Cadastro'
 import Login from './components/login/Login'
+import HomeAluno from './pages/HomeAluno/HomeAluno'
 
 const router = createBrowserRouter([
   {
-    path: "/pagina",
+    path: "/home",
     element: <Home />
   },
   {
@@ -27,11 +28,15 @@ const router = createBrowserRouter([
     element: <PaginaInicial />
   },
   {
-    path: "aulaInstrutor",
+    path: "/aulaInstrutor",
     element: <AulaInstrutor />
   },
   {
-    path: "frequenciaInstrutor",
+    path: "/homeAluno",
+    element: <HomeAluno />
+  },
+  {
+    path: "/frequenciaInstrutor",
     element: <FrequenciaInstrutor />
   }
 ])

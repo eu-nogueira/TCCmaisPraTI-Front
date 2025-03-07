@@ -108,15 +108,17 @@ h2:hover {
 }
 
 .descri {
-    height: 15px;
+    height: 25px;
 }
 
 .nome, .descri, .email {
     width: 300px;
+    height: 25px;
 }
 
 .hour {
     width: 150px;
+    height: 25px;
 }
 
 .title {

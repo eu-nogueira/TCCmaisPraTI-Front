@@ -38,8 +38,8 @@ function CadastrarNovaAula() {
                 <label htmlFor="email">E-mail: </label>
                 <input type="email" name="" className="email"/> <br />
                 <label htmlFor="descri">Descrição: </label>
-                <textarea name="" className="descri"></textarea> <br />
-                <button className='cadastro' onClick={cadastrarAula}>Cadastrar</button>
+                <textarea className="descri"></textarea> <br />
+                <p className='cadastroAula' onClick={cadastrarAula}>Cadastrar</p>
             </form>
     </div>
   )

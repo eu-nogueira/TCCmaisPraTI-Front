@@ -9,7 +9,7 @@ html,body{
 
 button{
     margin: 10px;
-
+    border: none;
 }
 
 .btn-google img{
@@ -19,4 +19,35 @@ button{
 .btn-google{
     border-radius: 10px;
     border: none;
+    height: 50px;
+}
+
+.login {
+    display: flex;
+    background-color: #daebfd;
+}
+
+.left {
+    height: 100vh;
+    background-color: #0077FF;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.left span {
+    color: black;
+    font-weight: bold;
+}
+
+.left p {
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+.left h1 {
+    margin-top: 200px;
 }

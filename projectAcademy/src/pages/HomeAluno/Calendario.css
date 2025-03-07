@@ -1,0 +1,38 @@
+.calendario-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .dias-semana {
+    display: flex;
+  }
+  
+  .dia-semana {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .dias-mes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+  
+  .dia {
+    width: calc(100% / 8);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  .dia.hoje {
+    background-color: #7fcdf9;
+    font-weight: bold;
+    color: black;
+  }
+  
