@@ -1,0 +1,22 @@
+.form-container{
+    max-width: 350px;
+    padding: 1rem;
+}
+
+html,body{
+    height: 100%;
+}
+
+button{
+    margin: 10px;
+
+}
+
+.btn-google img{
+    width: 40px;
+}
+
+.btn-google{
+    border-radius: 10px;
+    border: none;
+}
